@@ -1,4 +1,4 @@
-.carousel-heading, .carousel-btn {
+.carousel-heading, .carousel-btn, .section-title, .package-section-title, .package-text, .btn-package {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -13,6 +13,63 @@
 .extra-margin-top {
     margin-top: 8rem;
 }
-..extra-margin-bottom {
-    margin-bottom: 8rem;
+.extra-margin-bottom {
+    margin-bottom: 5rem;
+}
+.section-title {
+    text-align: center;
+    color: #0A0826;
+}
+
+                /* package section style */
+
+.package-section-title {
+	color: #231D4F;
+	line-height: 35.5px;
+}    
+.package-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24.5px;
+}        
+.package-list-item ul li {
+    list-style: none;
+}
+.btn-package {
+	background: #F496D11C;
+	mix-blend-mode: normal;
+	border-radius: 24px;
+	color: #3F87F5;
+	padding: .5rem 3rem;
+}
+.btn:hover {
+    color: #3F87F5;
+}
+.highlight-package {
+	background: #3F87F5;
+	box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+	border-radius: 26px;
+	width: 280px;
+	height: 400px;
+	padding: 30px;
+	position: relative;
+	bottom: 4rem;
+}
+.hot-package {
+	position: absolute;
+	left: 13rem;
+	top: -1rem;
+	background: red;
+	color: #FFFFFF;
+	border-radius: 10px;
+	padding: 2px 10px;
+}
+@media only screen and (max-width:756px) {
+    .highlight-package {
+        position: relative;
+        bottom: -2rem;
+    }
+    .small-device {
+        margin-top: 4rem;
+    }
 }
