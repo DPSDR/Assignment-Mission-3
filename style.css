@@ -1,4 +1,4 @@
-.carousel-heading, .carousel-btn, .section-title, .package-section-title, .package-text, .btn-package {
+.carousel-heading, .carousel-btn, .section-title, .package-section-title, .package-text, .btn-package, .subscribe-section-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -72,4 +72,32 @@
     .small-device {
         margin-top: 4rem;
     }
+    .toast {
+        position: relative;
+        left: 0rem;
+    }
+}
+
+                /* faq section style */
+
+.card-body {
+	flex: 1 1 auto;
+    padding: 1rem 1rem;
+    border: 1px solid #0000ff0f;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.07);
+}
+
+                /* subscribe-section */
+
+.subscribe-section {
+	background-color: #00f9;
+}
+.subscribe-section-title {
+	color: #fdfdfdf2;
+	line-height: 2.5rem;
+}
+
+.toast {
+	position: relative;
+	left: 76rem;
 }

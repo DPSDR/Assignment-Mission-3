@@ -125,6 +125,7 @@
     </header>
     <main>
 
+
         <!-- preciuos moment section -->
         <section class="container extra-margin-top">
             <div class="row d-flex align-items-center">
@@ -140,6 +141,16 @@
                         assumenda praesentium.</p>
                     <button class=" btn btn-primary">Explore Our Album <i class="fas fa-arrow-right"></i>
                     </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- toast section -->
+        <section class="d-flex">
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="display: block;">
+                <div class="toast-header">
+                    <strong class="me-auto"><i class="fas fa-gift me-2"></i>20% off on next booking</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
             </div>
         </section>
@@ -257,22 +268,41 @@
             </div>
         </section>
 
-        <!-- faq section -->
+        <!-- Subscribe section -->
+        <section class="container-fluid text-center extra-margin-top subscribe-section">
+            <div class="py-5">
+                <h3 class="subscribe-section-title">Get Weekly Updates for FREE</h3>
+                <h6 class="subscribe-section-title">Subscribe and Get Special Discounts Offer Straight to Your Inbox for
+                    FREE</h6>
+                <form style="line-height: 5rem;">
+                    <div class="w-50 mx-auto">
+                        <!-- <label for="exampleInputEmail1" class="form-label">Your Best Email Address
+                    </label> -->
+                        <input type="email" class="form-control text-center input-lg" style="border-radius: 24px;"
+                            id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-package btn-subscribe mt-3 w-50"
+                        style="background-color: #FFFFFF;">Submit</button>
+                </form>
+            </div>
+        </section>
 
+        <!-- faq section -->
         <section class="container">
-            <h2 class="section-title extra-margin-top">Frequently Asked Questions</h2>
+            <h2 class="section-title extra-margin-top extra-margin-bottom">Frequently Asked Questions</h2>
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
                     <nav>
                         <p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            <button class="btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseExample1" aria-expanded="false"
                                 aria-controls="collapseExample">
                                 What's the difference between event design adn event planning?
+                                <i class="fas fa-chevron-down"></i>
                             </button>
                         </p>
                         <div class="collapse" id="collapseExample1">
-                            <div class="card card-body">
+                            <div class="card-body">
                                 Event design and event planning work hand in hand to deliver a
                                 successful event.Events by Knight offer tailor made events. This
                                 means we incorporate both event design and event planning to
@@ -282,14 +312,15 @@
                     </nav>
                     <nav>
                         <p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            <button class="btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseExample2" aria-expanded="false"
                                 aria-controls="collapseExample">
                                 How early do we need to start planning an event?
+                                <i class="fas fa-chevron-down"></i>
                             </button>
                         </p>
                         <div class="collapse" id="collapseExample2">
-                            <div class="card card-body">
+                            <div class="card-body">
                                 Event design and event planning work hand in hand to deliver a
                                 successful event.Events by Knight offer tailor made events. This
                                 means we incorporate both event design and event planning to
@@ -299,14 +330,15 @@
                     </nav>
                     <nav>
                         <p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            <button class="btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseExample3" aria-expanded="false"
                                 aria-controls="collapseExample">
                                 What is your refund and cancellation policy?
+                                <i class="fas fa-chevron-down"></i>
                             </button>
                         </p>
                         <div class="collapse" id="collapseExample3">
-                            <div class="card card-body">
+                            <div class="card-body">
                                 Event design and event planning work hand in hand to deliver a
                                 successful event.Events by Knight offer tailor made events. This
                                 means we incorporate both event design and event planning to
@@ -316,14 +348,15 @@
                     </nav>
                     <nav>
                         <p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            <button class="btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseExample4" aria-expanded="false"
                                 aria-controls="collapseExample">
                                 How do you keep budgets on track?
+                                <i class="fas fa-chevron-down"></i>
                             </button>
                         </p>
                         <div class="collapse" id="collapseExample4">
-                            <div class="card card-body">
+                            <div class="card-body">
                                 Event design and event planning work hand in hand to deliver a
                                 successful event.Events by Knight offer tailor made events. This
                                 means we incorporate both event design and event planning to
@@ -333,40 +366,32 @@
                     </nav>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/people.png" alt="">
+                    <img class="img-fluid" src="images/people.png" alt="">
                 </div>
             </div>
         </section>
 
-        <!-- Subscribe section -->
-        <section>
-            <h3>Get Weekly Updates for FREE</h3>
-            <h6>Subscribe and Get Special Discounts Offer Straight to Your Inbox for FREE</h6>
-            <form>
-                <div class="mb-3 w-25">
-                    <label for="exampleInputEmail1" class="form-label">Your Best Email Address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <button type="submit" class="btn btn-primary w-25">Submit</button>
-            </form>
-        </section>
     </main>
 
     <!-- footer section -->
     <footer>
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    &copy; 2020 bike. All rights reserved
-                </div>
-                <div class="col-lg-6">
-                    <h4>Get the app</h4>
-                    <a href="" class="d-block">
-                        <img src="images/btn_google.png" alt="">
-                    </a>
-                    <a href="" class="d-block">
-                        <img src="images/btn_apple.png" alt="">
-                    </a>
+        <section class="container-fluid extra-margin-top bg-dark">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-md-12 text-light text-center my-5">
+                        &copy; 2020 bike. All rights reserved
+                    </div>
+                    <div class="col-lg-6 col-md-12 my-5">
+                        <h4 class="text-light text-center">Get the app</h4>
+                        <a href="" class="d-block">
+                            <img src="images/btn_google.png" class="rounded mx-auto d-block" alt="" height="60"
+                                width="180">
+                        </a>
+                        <a href="" class="d-block">
+                            <img src="images/btn_apple.png" class="rounded mx-auto d-block" alt="" height="60"
+                                width="180">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
